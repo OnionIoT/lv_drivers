@@ -5,6 +5,7 @@ CSRCS += mousewheel.c
 CSRCS += evdev.c
 CSRCS += libinput.c
 CSRCS += XPT2046.c
+CSRCS += XPT7603.c
 
 DEPPATH += --dep-path $(LVGL_DIR)/lv_drivers/indev
 VPATH += :$(LVGL_DIR)/lv_drivers/indev

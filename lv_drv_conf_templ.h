@@ -259,6 +259,26 @@
 #  define XPT2046_INV         0
 #endif
 
+/*--------------
+ *    XPT7603
+ *--------------*/
+#ifndef USE_XPT7603
+#  define USE_XPT7603         0
+#endif
+
+#if USE_XPT7603
+#  define XPT7603_HOR_RES     320
+#  define XPT7603_VER_RES     240
+#  define XPT7603_X_MIN       200
+#  define XPT7603_Y_MIN       200
+#  define XPT7603_X_MAX       3800
+#  define XPT7603_Y_MAX       3800
+#  define XPT7603_AVG         4
+#  define XPT7603_X_INV       1
+#  define XPT7603_Y_INV       1
+#  define XPT7603_XY_SWAP     1 
+#endif
+
 /*-----------------
  *    FT5406EE8
  *-----------------*/
